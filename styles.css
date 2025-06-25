@@ -1,0 +1,78 @@
+/* GENERAL PAGE STYLES */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+
+  /* White House as the background */
+  background-image: url('jus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HEADER - Short and Subtle */
+header {
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 5px #000;
+  z-index: 100;
+}
+
+.flag-container {
+  position: fixed;
+  left: 50px;
+  bottom: -20px;
+  padding: 10px;
+  mix-blend-mode:screen;
+}
+.flag-container2 {
+  position: fixed;
+  right: 50px;
+  bottom: -20px;
+  padding: 10px;
+  mix-blend-mode:screen;
+}
+
+.us-flag {
+  width: 350px;
+  height: 450px;
+}
+
+
+/* FIREWORKS */
+.firework {
+  position: absolute;
+  top: 0;
+  height: 250px;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+.firework.left {
+  left: 120px;
+  width: 33.3v;
+}
+
+.firework.right {
+  right: 120px;
+  width: 33.3v;
+} */
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  header {
+    font-size: 1.3rem;
+  }
+  .us-flag {
+    width: 100px;
+  }
+}
